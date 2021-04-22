@@ -1,0 +1,60 @@
+.delivery {
+    height: 348px;
+    background: url(../../image/bg3.png) center center / cover no-repeat;
+    padding: 59px 0 70px 0;
+    position: relative;
+    &__price {
+        width: 160px;
+        height: 157px;
+        background-color: #ffffff;
+        border-radius: 100%;
+        padding: 30px 20px 30px 20px;
+        left: 37%;
+
+        position: absolute;
+
+        &_title {
+            color: #68b0c9;
+            font-size: 17px;
+            font-weight: 700;
+            text-align: center;
+        }
+        &_old {
+            color: #1e1e1e;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: line-through;
+
+        }
+        hr {
+            border-bottom: none;
+            opacity: .3;
+        }  
+        &_now {
+            color: #d04545;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        } 
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__block {
+        width: 344px;
+        height: 219px;
+        &_title {
+            color: #535353;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            span {
+                background: #fff;
+                color: #68b0c9;
+            }
+        }
+    }
+}

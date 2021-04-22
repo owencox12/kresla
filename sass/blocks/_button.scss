@@ -1,0 +1,40 @@
+.button {
+    width: 220px;
+    height: 45px;
+    box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 23px;
+    background-color: #68b0c9;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    &-discount {
+        width: 200px;
+        height: 50px;
+        box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+        border-radius: 23px;
+        background-color: #68b0c9;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        margin-top: 6%;
+        left: 67%;
+    }
+    &_delivery {
+        width: 260px;
+        height: 45px;
+        box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+        border-radius: 23px;
+        background-color: #68b0c9;
+    }
+    &_map {
+        width: 260px;
+        height: 45px;
+        box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+        border-radius: 23px;
+        background-color: #68b0c9;
+        margin-top: 45px;
+    }
+}

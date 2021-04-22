@@ -1,0 +1,67 @@
+.twovids {
+    min-height: 522px;
+    padding: 62px 0 79px 0;
+    position: relative;
+    &__titles {
+        display: flex;
+        justify-content: center;
+        .left_title {
+            color: #535353;
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            margin: 0 61px;
+        }
+        .right_title {
+            color: #68b0c9;
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        left: 31%;
+        height: 350px;
+        margin-top: 46px;
+        &_descr_left {
+            color: #939393;
+            font-size: 15px;
+            font-weight: 700;
+            width: 186px;
+            margin-bottom: 15px;
+        }
+    }
+    &__text_right {
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        margin-top: 46px;
+    }
+    .twovids__text_descr_right {
+        color: #68b0c9;
+        font-size: 15px;
+        font-weight: 700;
+        width: 186px;
+        margin-bottom: 15px;
+        margin-right: 50px;
+        
+    }
+    &__image {
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 40px;
+            position: absolute;
+            left: 41%;
+            bottom: 110px;
+        }
+    }
+}

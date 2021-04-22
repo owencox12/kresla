@@ -1,0 +1,23 @@
+.footer {
+    height: 113px;
+    padding: 20px 0 23px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link a {
+        color: #68b0c9;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        text-decoration: underline;
+    }
+    &__inn {
+        color: #505050;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: right;
+
+    }
+}

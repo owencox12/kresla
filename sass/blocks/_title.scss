@@ -1,0 +1,22 @@
+.title {
+    color: #535353;
+    font-size: 41px;
+    font-weight: 700;
+    text-align: right;
+    line-height: 50px;
+    &-info {
+        font-size: 36px;
+        text-align: center;
+    }
+    &-discount {
+        color: #535353;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    &-certificate {
+        text-align: center;
+        font-size: 36px;
+    }
+}

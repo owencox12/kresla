@@ -1,0 +1,43 @@
+.promo {
+    min-height: 580px;
+    background: url(../../image/bg1.png) center center / cover no-repeat;
+    padding: 80px 0 61px 0;
+    &__text {
+        color: #5892a6;
+        font-size: 27px;
+        font-weight: 500;
+        line-height: 42.35px;
+        text-align: right;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__block {
+        width: 300px;
+        min-height: 240px;
+        box-shadow: 0 0 38px rgba(104, 176, 201, 0.34);
+        border-radius: 20px;
+        background-color: #ffffff;
+        padding: 40px 36px 36px 36px;
+        margin-top: 66px;
+        .block_title {
+            color: #5892a6;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .block_text {
+            color: #000000;
+            font-size: 12px;
+            font-weight: 300;
+            text-align: center;
+        }
+        input {
+            width: 220px;
+            height: 45px;
+            border-radius: 23px;
+            margin-top: 15px;
+        }
+    }
+}

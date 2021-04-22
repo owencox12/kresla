@@ -1,0 +1,25 @@
+.header {
+    height: 100px;
+    background: #fff;
+    padding: 15px 0 14px 0;
+    &__item {
+        display: flex;
+        justify-content: space-between;
+}   &__phone {
+    padding-top: 10px;
+    color: #5e5e5e;
+    font-size: 24px;
+    font-weight: 700;
+
+    a {
+        color: #5892a6;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: underline;
+    }
+
+}
+}

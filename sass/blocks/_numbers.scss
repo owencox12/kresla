@@ -1,0 +1,51 @@
+.numbers {
+    height: 275px;
+    padding: 99px 0 77px 0;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+    }
+    &__image, &__image2, &__image3, &__image4 {
+        
+        position: relative;
+        width: 100%;
+        margin-left: 10px;
+        h1 {
+            position: absolute;
+            top: 15px;
+            left: 25px;
+            width: 100%;
+            color: #68b0c9;
+            font-size: 48px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+    }
+    &__text {
+        color: #535353;
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .numbers__title2 {
+        top: 17px;
+        left: -23px;
+        font-size: 47px;
+    }
+    .numbers__title3 {
+        top: 15px;
+        left: -22px;
+        font-size: 47px;
+    }
+    .numbers__title4 {
+        top: 15px;
+        left: 14px;
+        font-size: 47px;
+    }
+
+}

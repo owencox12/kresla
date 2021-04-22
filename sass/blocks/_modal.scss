@@ -1,0 +1,50 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104, 176, 201, 0.8);
+    display: none;
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    min-height: 270px;
+    box-shadow: 0 0 38px rgba(104, 176, 201, 0.34);
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 40px;
+    &_mini {
+        min-height: 100px;
+    }
+    &__close {
+        position: absolute;
+        top: -20px;
+        
+        right: -35px;
+        font-size: 50px;
+        cursor: pointer;
+        color: #000
+    }
+    &__subtitle {
+        color: #5892a6;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 300;;
+        text-align: center;
+        margin-top: 14px;
+
+    }
+
+}
+#thanks {
+    display: none;
+}    

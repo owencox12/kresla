@@ -1,0 +1,54 @@
+.charactiristic {
+    min-height: 545px;
+    background: #fff;
+    padding: 90px 0 72px 0;
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 321px;
+        &_descr {
+            max-width: 250px;
+        }
+        &_title_left {
+            text-align: right;
+            color: #68b0c9;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: right;
+            display: block;
+        }
+        &_title_right {
+            text-align: left;
+            color: #68b0c9;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: left;
+        }
+        &_text_left {
+            color: #606060;
+            font-size: 14px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: right;
+            display: block;
+        }
+        &_text_right {
+            color: #606060;
+            font-size: 14px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: right;
+            display: block;
+        }
+    }
+}
